@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        select{
+            width: 200px;
+        }
+        form{
+            background-color: darkseagreen;
+            width: 400px;
+            font-family: "Times New Roman"}
+    </style>
+</head>
+<body>
+<form method="get" action="simpleform.html" >
+    <h1>Order Form</h1>
+    <h3><p>What would you like to buy?</p></h3>
+    <select>
+
+        <option value="  ">A</option>
+        <option>B (+ 0.5$)</option>
+        <option>C (+ 0.5$)</option>
+
+    </select>
+    <h3><p>How many would you like to order?</p>
+        <input type="radio" name="th"/>1 - $10<br>
+        <input type="radio" name="th">2 - $20 <br>
+        <input type="radio" name="th">3 - $25
+    </h3>
+    <br>
+
+    <h3>Name <b style="color: red">*</b></h3>
+    <input type="text" placeholder="FirstName">
+    <input type="text" placeholder="LastName">
+    <br>
+    <h3>Email</h3>
+    <input type="text" name="email" size="50">
+    <h3>Phone Number</h3>
+    <input type="text" name="Phone Number1" size="10">-
+    <input type="text" name="Phone number 2" size="10">-
+    <input type="text" name="Number Phone 3" size="10">
+    <br>
+    <br>
+    <input type="button" name="submit" value="Submit">
+
+
+</form>
+</body>
+</html>
